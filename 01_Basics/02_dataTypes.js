@@ -21,7 +21,7 @@ let state;
 // bigint => used for large number, generally in stock markets
 // string => " "
 // boolean => true/false
-//null => representation of empty value, standalone value
+// null => representation of empty value, standalone value
 // undefined => 
 // symbol => used for uniqueness
 // object 
