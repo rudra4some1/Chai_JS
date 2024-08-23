@@ -13,7 +13,7 @@ let valueInNumber = Number(score) // Number is used here for converting string t
 
 
 score = "33abc"
-valueInNumber = Number(score)
+// valueInNumber = Number(score)
 // console.log(typeof valueInNumber) // representing 33abc a number
 // console.log(valueInNumber) // output is -> NaN - Not a Number
 
@@ -21,8 +21,37 @@ valueInNumber = Number(score)
 // NaN (Not a Number)
 
 let isLoggedIn = 1
-console.log(typeof isLoggedIn)
+// console.log(typeof isLoggedIn)
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
-console.log(typeof booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
+// console.log(typeof booleanIsLoggedIn)
+
+
+// ******************* Operations *****************
+let value = 3
+// console.log(value) // output is => 3
+
+let negValue = -value // converting value of 3 to -3
+// console.log(negValue) // output is => -3
+
+//  console.log(2+2);
+//  console.log(2-2);
+//  console.log(2*2);
+//  console.log(2**2);
+//  console.log(2**3);
+//  console.log(2/2);
+//  console.log(2%2);
+
+// let str1 = "rahul "
+// let str2 = "rudra"
+// let str3 = str1 + str2
+// console.log(str3)
+
+
+// console.log("1" + 2) // output is => 12 --- convert all operations in string, everyonme is treats as string 
+// console.log(1 + "2") // O/P => 12 --- add 1 with string 2 so 12
+// console.log("1" + "2") // O/P => 12 -- both of them are string so 12
+// console.log("1" + 2 + 2) // O/P => 122 -- convert all operations in string
+// console.log(1 + 2 + "2") // O/P => 32 -- add 1 and 2 = 3 then combined it with string 2, so 32
+
