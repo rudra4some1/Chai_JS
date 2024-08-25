@@ -15,7 +15,7 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 //although value of both of the different Id is same
 // but both of the ID's are different
-console.log(id === anotherId);// O/P => false
+// console.log(id === anotherId);// O/P => false
 // output is false because, symbol provides uniqueness to both ID's
 
 
@@ -57,7 +57,7 @@ const myFunction = function(){
 // how to find out the datatype of anything or any value 
 // console.log(typeof variable Name);
 //example => 
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
 
 // type of operator gives following values 
 
@@ -72,6 +72,59 @@ console.log(typeof bigNumber)
 // object (native or host and does implement [call]) --> objects
 // object (native or host and does implement [call]) --> function
 // object (host and does not implement [call]) --> implementation defined may not be(undefined,boolean,number,string)
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack Memory
+// Used in all Primitive types (Strinng, number, boolean, bigInt,symbol, null)
+// Gets the copy of the variable we declare 
+
+let myYoutubeName = "AsSaSsIN Playz";
+
+let anothername = myYoutubeName;
+anothername = "rah_ii" 
+// here copy value of myYoutubeName is changed, when we assign anotherName 
+// we get copy value of myYoutubeName, and the change is happened in copy value
+// so thats why myYoutubeName value does not change.
+
+console.log(anothername); // O/P --> rah_ii
+console.log(myYoutubeName); // O/P --> AsSaSsIN Playz
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Heap
+// Used in all Non-primitive type (Array, Object, Function)
+// Gets the reference or we can say orginal value
+// values can be changed in heap as per requirement
+// we done any changes inside heap, is the change in the original value
+
+
+
+// making object => userOne
+let userOne = {
+    email: "userOne@google.com",
+    upi: "userOne@ibl"
+}
+
+// when we call userOne it does not send the copy of userOne variable
+// instead of this, it send the reference of this variable is stored in heap
+
+
+
+let userTwo = userOne // update userTwo value as same as userOne 
+
+userTwo.email = "rah_ii@nikk.com" //updating the email of the userTwo
+
+console.log(userOne); // O/P --> { email: 'rah_ii@nikk.com', upi: 'userOne@ibl' }
+console.log(userTwo); // O/P --> { email: 'rah_ii@nikk.com', upi: 'userOne@ibl' }
+// both of the output are same because, both variable getting reference from same heap or memory
+
 
 
 
