@@ -49,6 +49,7 @@ Symbol(Symbol.iterator): ƒ [Symbol.iterator]
 
 
 // creating a new variable, newString and storing gameName in it
+// we cannot use negative values in subString.
 // and dividing this gameName in subString, for this we need two arguments
 // one is start number another one is end number, gameName.subString(start number, end number)
 const newString = gameName.substring(0,4)
