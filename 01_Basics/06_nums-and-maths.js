@@ -59,6 +59,7 @@ Math.random provides some random value
 
 (+ min) --> because, to get atleast value more than the min value , which is here is 10.
 
+*/
 
 
 
