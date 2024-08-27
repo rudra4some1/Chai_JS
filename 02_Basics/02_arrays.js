@@ -26,7 +26,7 @@ console.log(real_another_array);
 
 
 console.log(Array.isArray("rahul")); // asking, is rahul is a array or not 
-/* yes definitely rahul is not a array, in this case 
+/* definitely rahul is not a array, in this case 
 output is false, so 
 if , I have to convert this to array , I can simply do */
 
