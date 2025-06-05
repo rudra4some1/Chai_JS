@@ -1,4 +1,4 @@
-// singleton --> objedcts made from constructor
+// singleton --> objects made from constructor
 
 // object literals
 
@@ -21,7 +21,7 @@ const JsUser = {
 
 
 // console.log(JsUser.email);// by this way of calling objects, we cannot access "full name" key
-// console.log(JsUser["email"]);// but in this way, we can access any key.
+console.log(JsUser["email"]);// but in this way, we can access any key.
 
 // console.log(JsUser["full name"]);// try this way to call objects
 // console.log(JsUser[mySym]);

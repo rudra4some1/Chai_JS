@@ -83,4 +83,30 @@ console.log(Object.entries(tinderUser));
 
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+/* agr hume lagta hai ki courseInstructor boht bara naam hai to ,,,
+ iske badle hm 
+ const {courseInstructor : Instructor} = course
+ console.log(Instructor); // yaha instructor ke badle jo chahe likh skte haio
+*/
+
+{
+    "name": "rahul",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+
+
+
+
+
+
 
