@@ -98,11 +98,11 @@ console.log(courseInstructor);
  console.log(Instructor); // yaha instructor ke badle jo chahe likh skte haio
 */
 
-{
-    "name": "rahul",
-    "coursename": "js in hindi",
-    "price": "free"
-}
+// {
+//     "name": "rahul",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
 
 
